@@ -1,0 +1,28 @@
+.form-handler {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: auto;
+    animation: fadeIn 2s ease-in-out forwards;
+}
+.form-handler input {
+  margin-bottom: 10px;
+  padding: 8px;
+  font-size: 16px;
+}
+.form-handler button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.form-handler button:hover {
+  background-color: #45a049;   
+}
+.heading {
+  text-align: center;
+  margin-bottom: 20px;
+    animation: fadeIn 2s ease-in-out forwards;
+}

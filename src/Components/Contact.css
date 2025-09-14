@@ -1,0 +1,146 @@
+.contact-form-description{
+    background-color: black;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;      
+  margin: 30px auto;     
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+}
+
+/* Labels and Inputs */
+.contact-form label {
+  margin-bottom: 15px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  margin-top: 5px;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #0077ff;
+}
+
+/* Buttons */
+.contact-form button {
+  margin-top: 15px;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color:black;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: #005bb5;
+}
+
+
+.contact-form .option-buttons {
+  display: flex;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.contact-form .option-buttons button {
+  flex: 1;
+  padding: 10px;
+  background: #e0e0e0;
+  color: black;
+  border-radius: 8px;
+}
+
+.contact-form .option-buttons button.selected {
+  background:black;
+  color: white;
+}
+
+
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  width: 90%;
+  font-size: 14px;
+}
+
+table th, table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+table th {
+  background-color: black;
+  color: white;
+}
+
+input[type="radio"] {
+  appearance: none;      
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 18px;
+  height: 18px;
+  border: 2px solid #555;
+  border-radius: 50%;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+  margin-right: 8px;
+  transition: 0.2s ease;
+}
+
+
+input[type="radio"]:checked {
+  border-color: black;   
+  background-color: black;
+}
+
+
+input[type="radio"]:checked::before {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
+
+
+label {
+  font-size: 16px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+
+
+
+
