@@ -40,7 +40,7 @@ function Signup() {
           onChange={(e) => setPassword(e.target.value)}
           required
         />
-        <button type="submit">Sign Up</button>
+        <button type="submit">Sign Ups</button>
       </form>
     </div>
   );
